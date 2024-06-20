@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ContactsApp</title>
+</head>
+<body>
+    <div class="app">
+        <div class="users">
+            <h1 class="users__header">My contacts</h1>
+            <div class="users__form">
+                <input type="text" name="users-field-name" placeholder="Name" />
+                <input type="email" name="users-field-email" placeholder="Email" />
+                <input type="text" name="users-field-address" placeholder="Address" />
+                <input type="text" name="users-field-phone" maxlength="15" placeholder="+375xxxxxxxxx" />
+
+                <button name="users-btn-add">Add</button>
+            </div>
+        </div>    
+    </div>
+
+    <script src="src/components/User.js"></script>
+    <script src="src/components/Contacts.js"></script>
+    <script src="src/components/ContactsApp.js"></script>
+
+    <script src="src/index.js"></script>
+</body>
+</html>
